@@ -4,7 +4,7 @@ I used my knowledge of Python requests, APIs, and JSON traversals to analyze wea
 ## Part 1: WeatherPy
 I created a Python script to visualize weather data of over 500 cities at different distances from the equator. 
 
-1. In order to create the list of cities I created a set of random latitude and longitude combinations, used the `citipy` library to find the nearest city, and stored the name of the city and the latitude and longitude in a list. I used `len()` to confirm the list of cities was longer than 500, it was `606`.
+1. In order to create the list of cities I created a set of random latitude and longitude combinations, used the `citipy` library to find the nearest city, and stored the name of the city and the latitude and longitude in a list. I used `len()` to confirm the list of cities was longer than 500, it was `626`.
 
 2. I used the `OpenWeatherMap API`to obtain the `city`, `cloudiness`, `country`, `date`, `humidity`, `latitude`, `longitude`, `maximum temperature`, and `wind speed` for each city in my list.
 
@@ -43,6 +43,7 @@ I created a Python script to visualize weather data of over 500 cities at differ
 ![alt text](https://github.com/glongo001/python-api-challenge/blob/main/WeatherPy/Resources/lat_windspeed_south.png)
 
 ## Part 2: VacationPy
+I created a Python script to visualize weather data of over 500 cities at different distances from the equator. 
 - Used the list of cities stored in the csv file from Part 1 to create a heatmap using the latitudes and longitudes as locations and humidity as the weight. 
 - Created new dataframe to store only cities with my ideal weather conditions.
 - Used the dataframe to search for nearby hotels in each city and stored the hotel name in the new dataframe.
